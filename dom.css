@@ -1,1 +1,65 @@
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background: #eefdec;
+    height: 85vh;
+    width: 150vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 
+        3px 3px 2px #a5f1a3,
+        0px 0px 0px 3px #ffff7a;
+    border-radius: 5px;
+}
+
+.aluno{
+    height: 4vh;
+    width: 20vh;
+    background: #e4f2f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 95vh;
+    top: 5px;
+    border-radius: 10px;
+    transform: translate(-50%);
+    box-shadow: 
+        3px 2px 2px #afeeee,
+        0px 0px 0px 2px #ac58aa;
+    border: none;
+}
+
+.aluno:hover{
+    background-color: #b9deeb;
+}
+
+.professor{
+    height: 4vh;
+    width: 20vh;
+    background: #e4f2f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 117vh;
+    top: 5px;
+    border-radius: 10px;
+    transform: translate(-50%);
+    box-shadow: 
+        3px 2px 2px #afeeee,
+        0px 0px 0px 2px #ac58aa;
+        border: none;
+}
+
+.professor:hover{
+    background-color: #b9deeb;
+}
+
+
